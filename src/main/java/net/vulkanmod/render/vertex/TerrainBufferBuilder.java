@@ -1,6 +1,6 @@
 package net.vulkanmod.render.vertex;
 
-import com.mojang.blaze3d.platform.MemoryTracker;
+//import com.mojang.blaze3d.platform.MemoryTracker;
 import com.mojang.blaze3d.vertex.VertexFormat;
 import net.minecraft.world.level.block.state.BlockState;
 import net.vulkanmod.Initializer;
