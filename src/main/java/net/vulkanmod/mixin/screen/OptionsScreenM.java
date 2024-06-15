@@ -2,7 +2,6 @@ package net.vulkanmod.mixin.screen;
 
 import com.mojang.blaze3d.platform.GlStateManager; // Import for managing OpenGL state
 import com.mojang.blaze3d.systems.RenderSystem; // Import for rendering
-import com.mojang.realms.client.RealmsMainScreen; // Import for Realms main screen (optional)
 import net.minecraft.client.Options;
 import net.minecraft.client.gui.screen.option.GameOptionsScreen;
 import net.minecraft.client.gui.screens.Screen;
