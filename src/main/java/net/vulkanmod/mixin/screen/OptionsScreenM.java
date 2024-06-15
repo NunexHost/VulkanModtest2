@@ -37,17 +37,6 @@ public class OptionsScreenM extends Screen {
     @Override // Override the render method to potentially add custom rendering for your mixin (optional)
     public void render(int mouseX, int mouseY, float partialTicks) {
         super.render(mouseX, mouseY, partialTicks);
-        // Add your custom rendering code here (optional)
-
-        // Example: Draw a border around the screen (optional)
-        GlStateManager.disableTexture();
-        GlStateManager.disableDepthTest();
-        GlStateManager.lineWidth(2.0F);
-        RenderSystem.drawLines(this.width - 10, this.height - 10, this.width - 10, this.height + 10, -1);
-        RenderSystem.drawLines(this.width - 10, this.height + 10, this.width + 10, this.height + 10, -1);
-        RenderSystem.drawLines(this.width + 10, this.height + 10, this.width + 10, this.height - 10, -1);
-        RenderSystem.drawLines(this.width + 10, this.height - 10, this.width - 10, this.height - 1  0, -1);
-        GlStateManager.enableTexture();
-        GlStateManager.enableDepthTest();
+        // Add your custom rendering code here (optiona
     }
 }
